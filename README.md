@@ -2,14 +2,10 @@
 
 An NPM module that starts a UI project with sensible defaults. 
 
-  $ sudo npm install -g om
-  
-  $ mkdir project && cd project
-  
-  $ om website
-  
-  $ npm install && bower install
-  
+  $ sudo npm install -g om  
+  $ mkdir project && cd project  
+  $ om website  
+  $ npm install && bower install  
 
 ## Commands
 
