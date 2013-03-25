@@ -1,30 +1,28 @@
 {
   "name": "om",
-  "version": "0.1.32-beta",
+  "version": "0.0.33-beta",
   "description": "Om is a CLI tool for scaffolding out projects",
   "keywords": [],
-  "homepage": "",
-  "bugs": "",
-  "author": {
-    "name": "Ogilvy & Mather Atlanta Technology"
-  },
+  "bugs": "https://github.com/ogilvyatlanta/om/issues",
+  "author": "Ogilvy & Mather Atlanta Technology",
   "bin": {
     "om": "bin/om"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ogilvyatlanta/om"
   },
   "scripts": {
-    "": ""
+    "test": "mocha test/test"
   },
   "dependencies": {
+    "colors": "*",
     "nopt": "~2.1.1",
-    "lodash": "~1.0.0",
-    "colors": "*"
+    "lodash": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.8.1",
+    "chai": "*",
+    "mocha": "*",
     "grunt": "~0.4.0"
   },
   "engines": {
@@ -35,13 +33,5 @@
     {
       "type": "BSD"
     }
-  ],
-  "readme": "% root\n\nPHASE I\n------------------------------------------------------------------\nom <website> creates\n- assets\n  - js\n    - vendor\n      - zepto\n      - require\n      - underscore\n    - libs\n      - helpers\n      - views\n      - models\n      - collections\n      - modules\n    - main.js\n    - app.js\n  - css\n    - mixins.scss\n    - creative.scss\n    - grid.scss\n    - main.scss\n  - img\nindex.html\nstyleguide.html\n\nPHASE II\n------------------------------------------------------------------\nom <website> creates\nPHASE I + grunt + mocha + bower\n\nGruntfile.js\npackage.json\n- tests\n- dist\n\nPHASE III\n------------------------------------------------------------------\nom <addjs> adds specific modules/helpers (om, analytics)\n \nPHASE IV\n------------------------------------------------------------------\nom <website:language> creates\nPHASE I specific to project structure\n\n",
-  "readmeFilename": "README.md",
-  "_id": "om@0.1.27-beta",
-  "_from": "om@0.1.27-beta",
-  "dist": {
-    "shasum": "8f088c958d1a2a4b2078750d1edf12bef8f07cf2"
-  },
-  "_resolved": "https://registry.npmjs.org/om/-/om-0.1.27-beta.tgz"
+  ]
 }
